@@ -1,3 +1,5 @@
+// a basic program that just prints 'Hello World!'
+
 #include <stdio.h>
 
 int main (){
