@@ -21,4 +21,6 @@ int main(void) {
     cmp2 = pow(a + b, 2);
 
     (cmp1 == cmp2)?printf("They're equal !\n"):printf("They're not equal\n");
+
+    return 0;
 }
