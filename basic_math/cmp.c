@@ -24,4 +24,6 @@ int main(void) {
     } else {
         printf("They're not equal\n");
     }
+
+    return 0;
 }
