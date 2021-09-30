@@ -7,9 +7,11 @@ equal to the square of their sum*/
 
 #include <math.h>
 
+#include <unistd.h>
+
 int main(void) {
 
-    int a, b, cmp1, cmp2;
+    int j, i, a, b, cmp1, cmp2;
 
     printf("Type a number :");
     scanf("%d", & a);
@@ -24,6 +26,6 @@ int main(void) {
     } else {
         printf("They're not equal\n");
     }
-
-    return 0;
+    usleep(1410065);
+    system("clear");
 }

@@ -22,5 +22,8 @@ int main(void) {
 
     (cmp1 == cmp2)?printf("They're equal !\n"):printf("They're not equal\n");
 
+    usleep(1410065);
+    system("clear");
+
     return 0;
 }
